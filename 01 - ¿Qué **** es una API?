@@ -1,0 +1,9 @@
+API son las siglas de Application Programming Interface o Interfaz de Programacion de Aplicaciones en español.
+Básicamente son un conjunto de definiciones y protocolos que se usan en el desarrollo de aplicaciones para que estas se comuniquen con otras.
+Un ejemplo de la utilidad de las APIs (que he encontrado en internet) es la API de PayPal que te permite usar su sistema de pagos sin tener que desarrollar uno desde cero.
+Otro ejemplo sería si necesitamos acceder a los datos que nos proporciona por ejemplo el instituto de meteorología, gracias a su API podemos hacer llamadas a estos datos mediante funciones que ellos nos proporcionan.
+Estas APIs pueden ser:
+-API de SOAP (Simple Object Access Protocol): intercambia datos cliente/servidor mediante XML (se usa poco por su poca flexibilidad).
+-API de RPC (Remote Process Call): el cliente hace una función en le servidor y este devuelve el resultado.
+-API de WebSocket: usa objetos JSON para transmitir datos de forma bidireccional. Como el servidor puede enviar mensajes de devolucion de llamada a los clientes, es más eficiente que la API de REST.
+-API de REST (REpresentational State Transfer): Estas son las APIs más flexible y populares. El servidor usa la entrada del cliente para iniciar funciones y devuelve los resultados.
