@@ -1,0 +1,10 @@
+Oauth2 es el principal sistema de autorización de APIs. Este sistema nos permite autenticarnos en diferentes sitios sin la necesidad de compartir datos.
+Este sistema aparece como solución a la necesidad de enviar constantemente credenciales entre cliente y servidor.
+Al usar aplicaciones de terceros esta necesidad aumenta en gran medida, por ejemplo si queremos que nuestra aplicación pueda generar contenido para Twitter
+desde la cuenta de un usuario necesitaremos sus credenciales, sin embargo, pedir las credenciales de un usuario en otra plataforma no es algo que
+se deba hacer bajo ningún concepto. La solución a esto es pedir a Twitter que autentique a este usuario, y que nos otorgue ciertas capacidades con la sesión
+de este usuario. Así podemos hacer cosas en Twitter sin la necesidad de tener las credenciales del cliente.
+El flujo de trabajo de OAuth2 sería el siguiente:
+
+Pedimos autorización al dueño -> el dueño nos da permiso -> damos esta autorización al servidor -> 
+el servidor nos devuelve un token de acceso -> usando el token podemos acceder al recurso protegido
